@@ -1,0 +1,16 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="drinkJarBoiledWater" craft_time="240" count="1" craft_area="campfire">
+			<ingredient name="resourceSnowBall" count="16"/>
+			<ingredient name="resourceCrushedSand" count="4"/>
+			<ingredient name="resourceCloth" count="1"/>
+			<ingredient name="drinkJarEmpty" count="1"/>
+		</recipe>
+		
+		<recipe name="resourceScrapPolymers" craft_time="8" count="1" craft_area="campfire" craft_tool="toolBeaker">
+			<ingredient name="resourceYuccaFibers" count="4"/>
+			<ingredient name="ammoGasCan" count="2"/>
+			<ingredient name="resourceCoal" count="1"/>
+		</recipe>
+	</append>
+</configs>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <!-- Give players the skill unlock magazine upon entering the game -->
+    <append xpath="//entity_class[@name='playerMale']/property[contains(@name, 'ItemsOnEnterGame')]/@value">,adminSkillMagazine=1</append>
+	
+	<!-- Zombie Despawn Time -->
+    <set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath']/@value">60</set>
+
+    <!-- Zombie Base Harvest drops -->
+    <append xpath="/entity_classes/entity_class[starts-with(@name,'zombie') and not(contains(@name,'Template'))]">
+        <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+        <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+        <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+        <drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
+        <drop event="Harvest" name="oldCash" tag="butcherHarvest" count="1,5" loot_prob_template="low"/>
+        <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+        <drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+        <drop event="Harvest" name="resourceCloth" count="1" tag="WasteTreasuresCompleteHarvest"/>
+        <drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+        <drop event="Harvest" name="oldCash" count="1,7" tag="WasteTreasuresCompleteHarvest"/>
+    </append>
+	
+	<!-- Zombie Unique Loot Tables -->
+	<append xpath="/entity_classes/entity_class[starts-with(@name,'zombieJanitor')]">
+		<drop event="Harvest" name="resourceMechanicalParts" count="1,3" tag="butcherHarvest"/>
+	</append>
+
+	<append xpath="/entity_classes/entity_class[starts-with(@name,'zombieUtilityWorker')]">
+		<drop event="Harvest" name="resourceElectricParts" count="1,3" tag="butcherHarvest"/>
+	</append>
+
+	<append xpath="/entity_classes/entity_class[starts-with(@name,'zombieMaleHazmat')]">
+		<drop event="Harvest" name="resourceScrapPolymers" count="1,3" tag="butcherHarvest"/>
+	</append>
+
+	<append xpath="/entity_classes/entity_class[starts-with(@name,'zombiePartyGirl')]">
+		<drop event="Harvest" name="resourceScrapPolymers" count="1,3" tag="butcherHarvest"/>
+	</append>
+
+    <!-- Corpse HP -->
+    <append xpath="/entity_classes/entity_class[starts-with(@name,'zombie') and not(contains(@name,'Template'))]">
+        <property name="DeadBodyHitPoints" value="250"/>
+    </append>
+</configs>
