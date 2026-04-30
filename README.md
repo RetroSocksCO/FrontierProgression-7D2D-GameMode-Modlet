@@ -1,4 +1,4 @@
-# FrontierProgression-7D2D-GameMode-Modlet
+# FrontierProgression
 <img width="1920" height="1080" alt="20260430130926_1" src="https://github.com/user-attachments/assets/df57e53f-565d-4e2b-8c3c-8519e43ce187" />
 <img width="1920" height="1080" alt="20260430130841_1" src="https://github.com/user-attachments/assets/853edb5a-0fd2-426e-99db-bae5bb44bde9" />
 
