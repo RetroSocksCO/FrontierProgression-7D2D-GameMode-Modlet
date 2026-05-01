@@ -10,21 +10,21 @@
 * An edited version of "ZedHarvester" mod is included with this modlet. (don't need both)
 * RWG Seed you can generate for this modlet. (image at bottom)
 
-# Recipe additions:
+# Recipe additions
 * New "Water" recipe
 * New "Scrap Polymers" recipe
 
 <img width="1920" height="1080" alt="20260430131259_1" src="https://github.com/user-attachments/assets/31314d53-8374-4d81-8686-ceab0c0789c8" />
 <img width="1920" height="1080" alt="20260430131346_1" src="https://github.com/user-attachments/assets/a3800777-d1e3-4702-9446-b11e5157dd75" />
 
-# Entity changes:
+# Entity changes
 * Player starts with 1 adminSkillMagazine
 * Zombie TimeStayAfterDeath set to 60 seconds
 * Base Zombie Harvest Loot Table 
 * Unique Zombie Harvest Loot Tables
 * Zombie DeadBodyHitPoints set to 250
 
-# Harvest Loot Table info:
+# Harvest Loot Table info
 * All Zombies: "Rotting Flesh", "Bone", "Cloth Fragment" count is x1-3. (w/ Wasteland Treasures Complete adds +1 to all)
 * All Zombies: "Old Cash" count is either 0 or x1-5 low chance. (w/ Wasteland Treasures Complete count will vary between 0-12)
 * Janitor Zombie: Mechanical Parts x1-3
@@ -35,9 +35,9 @@
 <img width="1920" height="1080" alt="20260429141133_1" src="https://github.com/user-attachments/assets/280f65ad-d840-43b0-bae5-528aedc9e1b1" />
 
 
-# Author Notes:
+# Author Notes
 * The all skill magazine is optional, use it, scrap it, use it for campfire fuel. The choice is yours.
-* RWG Seed: "Kansas" is built on a tiny 3K map which does exclude Trader Rekt and forest biome POI's, highly recommend Reset Chunk: 10 Days, or for absolute survival try to last as long as you can.
+* RWG Seed: "Kansas" is built on a tiny 3K map that excludes Trader Rekt and forest biome POI's, highly recommend Reset Chunk: 10 Days, or for absolute survival try to last as long as you can.
 * If this is something you like, please consider following here or on YouTube :heart-emoji:
 * And lastly. Enjoy! (if not, ok bye!)
 
